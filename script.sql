@@ -19,7 +19,7 @@ SELECT * FROM products WHERE NAME = 'Macbook%';
  
 SELECT * FROM products WHERE OnSale = 1;
  
-SELECT AVG(products.price) FROM products;
+SELECT AVG(price) FROM products;
 
 SELECT * FROM employees WHERE MiddleInitial IS NULL AND title = 'Geek Squad';
  
